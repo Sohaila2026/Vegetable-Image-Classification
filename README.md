@@ -1,33 +1,33 @@
 # Vegetable Image Classification
 
 ## Project Overview
-This project is a Deep Learning application for classifying vegetable images into 15 different categories using a Convolutional Neural Network (CNN).
+This project is a Deep Learning application that classifies vegetable images into 15 different categories using a Convolutional Neural Network (CNN).
 
-The model is trained using the Vegetable Image Dataset and TensorFlow/Keras.
+The model was developed using TensorFlow and Keras and trained on the Vegetable Image Dataset.
 
 ## Dataset
 The dataset contains 15 vegetable classes:
 
-- Bean
-- Bitter Gourd
-- Bottle Gourd
-- Brinjal
-- Broccoli
-- Cabbage
-- Capsicum
-- Carrot
-- Cauliflower
-- Cucumber
-- Papaya
-- Potato
-- Pumpkin
-- Radish
-- Tomato
+1. Bean
+2. Bitter Gourd
+3. Bottle Gourd
+4. Brinjal
+5. Broccoli
+6. Cabbage
+7. Capsicum
+8. Carrot
+9. Cauliflower
+10. Cucumber
+11. Papaya
+12. Potato
+13. Pumpkin
+14. Radish
+15. Tomato
 
 The dataset is divided into:
-- Training set
-- Validation set
-- Testing set
+- Training Set
+- Validation Set
+- Testing Set
 
 ## Technologies Used
 - Python
@@ -37,38 +37,40 @@ The dataset is divided into:
 - Matplotlib
 - Streamlit
 
-## Model
-A Convolutional Neural Network (CNN) was built and trained for vegetable image classification.
+## Deep Learning Model
+A Convolutional Neural Network (CNN) was built and trained to classify vegetable images into 15 classes.
 
 ## Streamlit Application
-The application allows users to:
-1. Upload a vegetable image.
-2. Classify the uploaded image.
-3. Display the predicted vegetable class.
-4. Show the prediction confidence.
+The Streamlit application allows users to:
+- Upload a vegetable image.
+- Predict the vegetable category.
+- Display the predicted class.
+- Show the prediction confidence.
 
 ## Project Files
-- `quize_dl.ipynb`: Model training and evaluation notebook.
+- `quize_dl.ipynb`: Model training and evaluation.
 - `qizestrem.py`: Streamlit application.
-- `class_names.json`: Class labels mapping.
+- `class_names.json`: Class names mapping.
 - `README.md`: Project documentation.
 
-## Model Download
-The trained model file is hosted on Google Drive because of its large size.
+## Trained Model
+The trained model is hosted on Google Drive because of its large file size.
 
-**Download the trained model:** Add your Google Drive link here.
+**Model File:** `Vegetable_cnn.keras`
 
-After downloading, place `vegetable_cnn.keras` in the project folder before running the application.
+[Download the trained model](https://drive.google.com/file/d/10nIECptS4f7VypUfOHWq2DkIsLgDyokj/view?usp=sharing)
 
-## How to Run the Application
+Download the model and place it in the project folder before running the application.
 
-Install the required libraries:
+## How to Run the Project
+
+### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the Streamlit application:
+### 2. Run the Streamlit App
 
 ```bash
 streamlit run qizestrem.py
